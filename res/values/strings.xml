@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tipsy</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_questions">Questions</string>
+    <string name="title_activity_welcome_setup">Welcome Setup</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="fragment_welcome">fragment_welcome</string>
+
+    <string-array name="states">
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>NewHampshire</item>
+        <item>NewJersey</item>
+        <item>NewMexico</item>
+        <item>NewYork</item>
+        <item>NorthCarolina</item>
+        <item>NorthDakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>RhodeIsland</item>
+        <item>SouthCarolina</item>
+        <item>SouthDakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>WestVirginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+    </string-array>
+
+    <string name="title_activity_main">Main</string>
+    <string name="tip_notification_title_template">Tip: %1$s</string>
+    <string name="tip_notification_placeholder_text_template">You said %1$s and lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis. Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec tortor.</string>
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+
+</resources>

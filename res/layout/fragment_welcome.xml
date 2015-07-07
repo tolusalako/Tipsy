@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbarStyle="insideInset"
+    android:scrollbars="vertical"
+    tools:context="com.quadraticfour.tipsy.Welcome$PlaceholderFragment" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/timeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Welcome to Tipsy"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:fadingEdge="horizontal|vertical"
+        android:onClick="button_clicked"
+        android:text="CONTINUE"
+        android:textColor="#FFFFFF" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Checking here means that you accept the Terms written above"
+        android:textColor="#FFFFFF" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/timeView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TIPSY TERMS OF USE \n \n These Terms of Use are a legal agreement between Tipsy and you and govern your access and use of the Tipsy. BY INDICATING YOUR ACCEPTANCE BY CLICKING ON THE APPROPRIATE BUTTON BELOW, OR BY DOWNLOADING, INSTALLING, ACTIVATING OR USING ANY OF THE TIPSY SERVICES, YOU AGREE TO BE BOUND BY THESE TERMS OF USE. \n \n GENERAL TERMS \n \n You must be at least 21 years to use Tipsy. We are not responsible for the decision users make intoxicated or not, and we do not in any way promote underage use of alchohol. Consuming alcohol is dangerous and illegal if you under the legal age of 21."
+            android:textColor="#FFFFFF" />
+
+    </ScrollView>
+
+</RelativeLayout>
